@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample Open Weather Application</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+		<h1 class="text-center mt-2">Sample Open Weather</h1>
+
+		<div class="container pt-5">
+		<button onclick="display(0)" class="btn btn-primary mr-2">05:57:50 PST</button>
+		<button onclick="display(1)" class="btn btn-secondary mr-2">05:59:16 PST</button>
+		<button onclick="display(2)" class="btn btn-info mr-2">06:00:43 PST</button>
+		<button onclick="display(3)" class="btn btn-success mr-2">06:02:09 PST</button>
+		<button onclick="display(4)" class="btn btn-outline-primary mr-2">06:03:36 PST</button>
+		<button onclick="display(5)" class="btn btn-danger mr-2">06:05:02 PST</button>
+		<button onclick="display(6)" class="btn btn-warning mr-2">06:06:28 PST</button>
+		</div>
+
+	<div id="main" class="container pt-5">
+       <div id="detailsContainer">
+	   <P id="cityName"></P>
+	   <P id="Latitude"></P>
+	   <P id="Longitude"></P>
+	   <P id="country"></P>
+	   <P id="date"></P>
+   		<P id="day"></P>
+   		<P id="min"></P>
+   		<P id="max"></P>
+   		<P id="night"></P>
+   		<P id="eve"></P>
+   		<P id="morn"></P>
+   		<P id="pressure"></P>
+   		<P id="Humidity"></P>
+   		<h4>Weather:</h4>
+   		<P id="weatherMain"></P>
+   		<P id="weatherDesc"></P>
+   		<P id="speed"></P>
+   		<P id="clouds"></P>
+   		<P id="rain"></P>
+	   </div>
+   </div>
+
+ 
+
+<script src="script.js"></script>
+</body>
+</html>
